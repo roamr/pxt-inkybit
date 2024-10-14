@@ -6,7 +6,7 @@ using namespace pxt;
 #define PXT_CREATE_BUFFER(data, len) ManagedBuffer(data, len).leakData()
 #endif
 
-#define DC uBit.io.P12   // MICROBIT_PIN_P12
+#define DC uBit.io.P4   // MICROBIT_PIN_P4
 #define CS uBit.io.P8    // MICROBIT_PIN_P8
 #define RESET uBit.io.P2 // MICROBIT_PIN_P2
 #define BUSY uBit.io.P16 // MICROBIT_PIN_P16
